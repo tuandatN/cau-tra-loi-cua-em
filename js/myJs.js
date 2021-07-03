@@ -96,11 +96,11 @@ $('#yes').click(function() {
     var audio = new Audio('sound/tick.mp3');
     audio.play();
     Swal.fire({
-        title: 'Nói cho anh lí do em thích anh đi :vvvv',
+        title: 'Nói cho anh biết lí do đi :vvvv',
         html: true,
         width: 900,
         padding: '3em',
-        html: "<input type='text' class='form-control' id='txtReason' onmousemove=textGenerate()  placeholder='Whyyy'>",
+        html: "<input type='text' class='form-control' id='txtReason' onmousemove=textGenerate()  placeholder='Đừng ngại mà hãy cho anh biết câu trả lời nha'>",
         background: '#fff url("img/iput-bg.jpg")',
         backdrop: `
               rgba(0,0,123,0.4)
@@ -122,7 +122,7 @@ $('#yes').click(function() {
                 confirmButtonText: 'Okiiiii lun <3',
                 background: '#fff url("img/iput-bg.jpg")',
                 title: 'Anh biết mà ^^ Yêu em nhiều 😙😙😙 ',
-                text: "Còn giờ thì chờ gì nữa mà ko inbox cho anh đi nàoooooo",
+                text: "Khi nào hết dịch chúng ta đi chơi nha. Còn giờ thì chờ gì nữa mà ko inbox cho anh đi nàoooooo",
                 confirmButtonColor: '#83d0c9',
                 onClose: () => {
                     window.location = 'https://zalo.me/84938346671';
